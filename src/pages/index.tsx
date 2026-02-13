@@ -62,5 +62,5 @@ export default function Home({
 }
 
 Home.getLayout = (page: ReactNode) => {
-  return <SearchableLayout>{page}s</SearchableLayout>;
+  return <SearchableLayout>{page}</SearchableLayout>;
 };
